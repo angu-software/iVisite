@@ -1,0 +1,8 @@
+a:8:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:19:"Structures_DataGrid";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:18:"/rest/c/Structures";}s:8:"_content";s:10:"Structures";}s:1:"l";s:7:"New BSD";s:1:"s";s:57:"Render a data table with automatic pagination and sorting";s:1:"d";s:490:"This package provides a toolkit to generate data tables in HTML, CSV,
+ Excel, XML, Smarty, and other formats.  
+ It retrieves data from a variety of data sources, including SQL, CSV,
+ XML, PDO, DB_DataObject, DB_Table, and others.
+ It can transparently page and sort the data, through optimized database
+ queries, by parsing/generating GET, POST requests and REST-like urls.
+ It is designed with modularity and extensibility in mind, using drivers
+ for all rendering and datasource formats.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:27:"/rest/r/structures_datagrid";}}}

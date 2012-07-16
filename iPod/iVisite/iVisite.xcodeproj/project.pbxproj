@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* iVisiteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iVisiteAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* iVisiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* iVisiteViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* iVisiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* iVisiteViewController.m */; };
+		4D23B59812F8A98200B41635 /* iVisiteListPatients.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D23B59612F8A98200B41635 /* iVisiteListPatients.m */; };
+		4D23B59912F8A98200B41635 /* iVisiteListPatients.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D23B59712F8A98200B41635 /* iVisiteListPatients.xib */; };
+		4D23B5B312F97B9100B41635 /* iVisiteDetailTherapy.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D23B5B212F97B9100B41635 /* iVisiteDetailTherapy.xib */; };
+		4D23B5BC12F97F4500B41635 /* iVisiteDetailPatient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D23B5BB12F97F4500B41635 /* iVisiteDetailPatient.m */; };
+		4D23B5BF12F97F5D00B41635 /* iVisiteDetailTherapy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D23B5BE12F97F5D00B41635 /* iVisiteDetailTherapy.m */; };
+		4D23BADD12FE116700B41635 /* iVisiteDetailPatient.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D23BADC12FE116700B41635 /* iVisiteDetailPatient.xib */; };
+		E159AF381280375500C7A8A7 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = E159AF371280375500C7A8A7 /* Patient.m */; };
+		E159AF3B1280376100C7A8A7 /* Behandlung.m in Sources */ = {isa = PBXBuildFile; fileRef = E159AF3A1280376100C7A8A7 /* Behandlung.m */; };
+		E159AF40128037A500C7A8A7 /* Arzt.m in Sources */ = {isa = PBXBuildFile; fileRef = E159AF3F128037A500C7A8A7 /* Arzt.m */; };
+		E1601CAD1292E33D007D29EF /* InputSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = E1601CAC1292E33D007D29EF /* InputSimulator.m */; };
+		E1A80AAC12B75BF3001A6D32 /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A80AAB12B75BF3001A6D32 /* DataController.m */; };
+		E1BAF51E12A002CE0038F132 /* ModelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BAF51D12A002CE0038F132 /* ModelFactory.m */; };
+		E1ED6C7D13072EAC008284BB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E1ED6C7C13072EAC008284BB /* Default.png */; };
+		E1FCD69D129266FA001FFC89 /* CommunicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FCD69C129266FA001FFC89 /* CommunicationController.m */; };
+		E1FCD6B312926BD5001FFC89 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FCD6B212926BD5001FFC89 /* Controller.m */; };
+		E1FCD76E1292C020001FFC89 /* HIDParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FCD76D1292C020001FFC89 /* HIDParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iVisiteAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iVisiteAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iVisiteAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iVisiteAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iVisite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iVisite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* iVisiteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iVisiteViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* iVisiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iVisiteViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* iVisiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iVisiteViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iVisite_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iVisite_Prefix.pch; sourceTree = "<group>"; };
+		4D23B59512F8A98200B41635 /* iVisiteListPatients.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iVisiteListPatients.h; path = ../iVisiteListPatients.h; sourceTree = "<group>"; };
+		4D23B59612F8A98200B41635 /* iVisiteListPatients.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iVisiteListPatients.m; path = ../iVisiteListPatients.m; sourceTree = "<group>"; };
+		4D23B59712F8A98200B41635 /* iVisiteListPatients.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iVisiteListPatients.xib; sourceTree = "<group>"; };
+		4D23B5B212F97B9100B41635 /* iVisiteDetailTherapy.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iVisiteDetailTherapy.xib; sourceTree = "<group>"; };
+		4D23B5BA12F97F4500B41635 /* iVisiteDetailPatient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iVisiteDetailPatient.h; sourceTree = "<group>"; };
+		4D23B5BB12F97F4500B41635 /* iVisiteDetailPatient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iVisiteDetailPatient.m; sourceTree = "<group>"; };
+		4D23B5BD12F97F5D00B41635 /* iVisiteDetailTherapy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iVisiteDetailTherapy.h; sourceTree = "<group>"; };
+		4D23B5BE12F97F5D00B41635 /* iVisiteDetailTherapy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iVisiteDetailTherapy.m; sourceTree = "<group>"; };
+		4D23BADC12FE116700B41635 /* iVisiteDetailPatient.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iVisiteDetailPatient.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iVisite-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iVisite-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E159AF361280375500C7A8A7 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		E159AF371280375500C7A8A7 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		E159AF391280376100C7A8A7 /* Behandlung.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Behandlung.h; sourceTree = "<group>"; };
+		E159AF3A1280376100C7A8A7 /* Behandlung.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Behandlung.m; sourceTree = "<group>"; };
+		E159AF3E128037A500C7A8A7 /* Arzt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arzt.h; sourceTree = "<group>"; };
+		E159AF3F128037A500C7A8A7 /* Arzt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arzt.m; sourceTree = "<group>"; };
+		E1601CAB1292E33D007D29EF /* InputSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputSimulator.h; sourceTree = "<group>"; };
+		E1601CAC1292E33D007D29EF /* InputSimulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputSimulator.m; sourceTree = "<group>"; };
+		E1601D4E1292F721007D29EF /* HIDDataBlockDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDDataBlockDelegate.h; sourceTree = "<group>"; };
+		E1A80AAA12B75BF3001A6D32 /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataController.h; sourceTree = "<group>"; };
+		E1A80AAB12B75BF3001A6D32 /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataController.m; sourceTree = "<group>"; };
+		E1BAF51C12A002CE0038F132 /* ModelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelFactory.h; sourceTree = "<group>"; };
+		E1BAF51D12A002CE0038F132 /* ModelFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelFactory.m; sourceTree = "<group>"; };
+		E1ED6C7C13072EAC008284BB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E1FCD69B129266FA001FFC89 /* CommunicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunicationController.h; sourceTree = "<group>"; };
+		E1FCD69C129266FA001FFC89 /* CommunicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunicationController.m; sourceTree = "<group>"; };
+		E1FCD6B112926BD5001FFC89 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		E1FCD6B212926BD5001FFC89 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		E1FCD6CF1292A4C7001FFC89 /* CommunicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunicationDelegate.h; sourceTree = "<group>"; };
+		E1FCD76C1292C020001FFC89 /* HIDParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDParser.h; sourceTree = "<group>"; };
+		E1FCD76D1292C020001FFC89 /* HIDParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E1601D501292F813007D29EF /* Parser */,
+				E1FCD76B1292C003001FFC89 /* Utils */,
+				E159AF86128046A700C7A8A7 /* View */,
+				E159AF351280373300C7A8A7 /* Model */,
+				E159AF311280372300C7A8A7 /* Controller */,
+				1D3623240D0F684500981E51 /* iVisiteAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iVisiteAppDelegate.m */,
+				4D23B59512F8A98200B41635 /* iVisiteListPatients.h */,
+				4D23B59612F8A98200B41635 /* iVisiteListPatients.m */,
+				28D7ACF60DDB3853001CB0EB /* iVisiteViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* iVisiteViewController.m */,
+				4D23B5BA12F97F4500B41635 /* iVisiteDetailPatient.h */,
+				4D23B5BB12F97F4500B41635 /* iVisiteDetailPatient.m */,
+				4D23B5BD12F97F5D00B41635 /* iVisiteDetailTherapy.h */,
+				4D23B5BE12F97F5D00B41635 /* iVisiteDetailTherapy.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iVisite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iVisite_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				2899E5210DE3E06400AC0155 /* iVisiteViewController.xib */,
+				8D1107310486CEB800E47090 /* iVisite-Info.plist */,
+				4D23B59712F8A98200B41635 /* iVisiteListPatients.xib */,
+				4D23BADC12FE116700B41635 /* iVisiteDetailPatient.xib */,
+				4D23B5B212F97B9100B41635 /* iVisiteDetailTherapy.xib */,
+				E1ED6C7C13072EAC008284BB /* Default.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E159AF311280372300C7A8A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1FCD69B129266FA001FFC89 /* CommunicationController.h */,
+				E1FCD69C129266FA001FFC89 /* CommunicationController.m */,
+				E1FCD6B112926BD5001FFC89 /* Controller.h */,
+				E1FCD6B212926BD5001FFC89 /* Controller.m */,
+				E1FCD6CF1292A4C7001FFC89 /* CommunicationDelegate.h */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E159AF351280373300C7A8A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E159AF361280375500C7A8A7 /* Patient.h */,
+				E159AF371280375500C7A8A7 /* Patient.m */,
+				E159AF391280376100C7A8A7 /* Behandlung.h */,
+				E159AF3A1280376100C7A8A7 /* Behandlung.m */,
+				E159AF3E128037A500C7A8A7 /* Arzt.h */,
+				E159AF3F128037A500C7A8A7 /* Arzt.m */,
+				E1BAF51C12A002CE0038F132 /* ModelFactory.h */,
+				E1BAF51D12A002CE0038F132 /* ModelFactory.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E159AF86128046A700C7A8A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E1601D501292F813007D29EF /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				E1FCD76C1292C020001FFC89 /* HIDParser.h */,
+				E1FCD76D1292C020001FFC89 /* HIDParser.m */,
+				E1601D4E1292F721007D29EF /* HIDDataBlockDelegate.h */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+		E1FCD76B1292C003001FFC89 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E1A80AAA12B75BF3001A6D32 /* DataController.h */,
+				E1A80AAB12B75BF3001A6D32 /* DataController.m */,
+				E1601CAB1292E33D007D29EF /* InputSimulator.h */,
+				E1601CAC1292E33D007D29EF /* InputSimulator.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iVisite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iVisite" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iVisite;
+			productName = iVisite;
+			productReference = 1D6058910D05DD3D006BFB54 /* iVisite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iVisite" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iVisite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* iVisiteViewController.xib in Resources */,
+				4D23B59912F8A98200B41635 /* iVisiteListPatients.xib in Resources */,
+				4D23B5B312F97B9100B41635 /* iVisiteDetailTherapy.xib in Resources */,
+				4D23BADD12FE116700B41635 /* iVisiteDetailPatient.xib in Resources */,
+				E1ED6C7D13072EAC008284BB /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iVisiteAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* iVisiteViewController.m in Sources */,
+				E159AF381280375500C7A8A7 /* Patient.m in Sources */,
+				E159AF3B1280376100C7A8A7 /* Behandlung.m in Sources */,
+				E159AF40128037A500C7A8A7 /* Arzt.m in Sources */,
+				E1FCD69D129266FA001FFC89 /* CommunicationController.m in Sources */,
+				E1FCD6B312926BD5001FFC89 /* Controller.m in Sources */,
+				E1FCD76E1292C020001FFC89 /* HIDParser.m in Sources */,
+				E1601CAD1292E33D007D29EF /* InputSimulator.m in Sources */,
+				E1BAF51E12A002CE0038F132 /* ModelFactory.m in Sources */,
+				E1A80AAC12B75BF3001A6D32 /* DataController.m in Sources */,
+				4D23B59812F8A98200B41635 /* iVisiteListPatients.m in Sources */,
+				4D23B5BC12F97F4500B41635 /* iVisiteDetailPatient.m in Sources */,
+				4D23B5BF12F97F5D00B41635 /* iVisiteDetailTherapy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iVisite_Prefix.pch;
+				INFOPLIST_FILE = "iVisite-Info.plist";
+				PRODUCT_NAME = iVisite;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iVisite_Prefix.pch;
+				INFOPLIST_FILE = "iVisite-Info.plist";
+				PRODUCT_NAME = iVisite;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iVisite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iVisite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

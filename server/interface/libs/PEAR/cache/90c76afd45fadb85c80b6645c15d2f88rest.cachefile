@@ -1,0 +1,10 @@
+a:14:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:26:"/rest/p/mdb2_driver_mysqli";}s:8:"_content";s:18:"MDB2_Driver_mysqli";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:7:"1.5.0b3";s:2:"st";s:4:"beta";s:1:"l";s:11:"BSD License";s:1:"m";s:5:"quipo";s:1:"s";s:18:"mysqli MDB2 driver";s:1:"d";s:31:"This is the MySQLi MDB2 driver.";s:2:"da";s:19:"2010-08-29 12:30:01";s:1:"n";s:591:"- fixed bug #16003: incorrect check for error after mysqli_store_result
+- fixed bug #16147: first prepared statement is emulated when using factory with mysql
+- fixed bug #17037: 'on update' not mentioned in tableInfo()
+- fixed bug #17065: There is no NEW row in on DELETE trigger (fix error in FK constraint triggers)
+- fixed bug #17650: lastInsertId can not handle bigint, forces cast to integer [alexpw]
+- return ON UPDATE|DELETE action in getTableConstraintDefinition()
+- result->free() now works on multiple result sets
+
+open todo items:
+- use a trigger to emulate setting default now()";s:1:"f";s:5:"47380";s:1:"g";s:50:"http://pear.php.net/get/MDB2_Driver_mysqli-1.5.0b3";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:19:"package.1.5.0b3.xml";}}}

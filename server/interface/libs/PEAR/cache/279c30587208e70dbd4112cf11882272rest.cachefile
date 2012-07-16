@@ -1,0 +1,22 @@
+a:14:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:27:"/rest/p/structures_datagrid";}s:8:"_content";s:19:"Structures_DataGrid";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:9:"0.9.1dev1";s:2:"st";s:4:"beta";s:1:"l";s:7:"New BSD";s:1:"m";s:8:"doconnor";s:1:"s";s:57:"Render a data table with automatic pagination and sorting";s:1:"d";s:490:"This package provides a toolkit to generate data tables in HTML, CSV,
+ Excel, XML, Smarty, and other formats.  
+ It retrieves data from a variety of data sources, including SQL, CSV,
+ XML, PDO, DB_DataObject, DB_Table, and others.
+ It can transparently page and sort the data, through optimized database
+ queries, by parsing/generating GET, POST requests and REST-like urls.
+ It is designed with modularity and extensibility in mind, using drivers
+ for all rendering and datasource formats.";s:2:"da";s:19:"2010-10-10 13:22:42";s:1:"n";s:638:"QA release
+Directory layout
+- Bug #13025: field names in the form "table.field" could lead to syntax errors
+  in the SQL queries of the DBQuery, MDB2, and PDO DataSource drivers
+  (thanks to Matt Rosenquist)
+- Bug #13339: Automatic ORDER BY sort string addition can fail if subqueries
+  are used in the the DBQuery, MDB2, and PDO DataSource drivers
+  (thanks to Issac Navanick)
+- Bug #14078: SQL errors weren't returned
+  (thanks to Antonino Balsamo)
+- Added encoding unit tests
+- Added DataObject datasource unit tests
+- New XML datasource example about parsing an Atom feed
+- Improved XML datasource test suite
+- Bug #17731 - avoid ereg";s:1:"f";s:5:"50421";s:1:"g";s:53:"http://pear.php.net/get/Structures_DataGrid-0.9.1dev1";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:21:"package.0.9.1dev1.xml";}}}
