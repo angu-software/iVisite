@@ -2,3 +2,5 @@ iVisite
 =======
 
 mobile Patientenakte
+
+Elektronische Patientenakten sind gegenüber papierbehafteten Akten wesent- lich komfortabler für medizinisches Personal wie etwa beim Transport. Ein weiterer Vorteil ist, dass die Patientendaten dezentral eingesehen werden kön- nen und sind daher einfacher, im Kontext des Patienten abzurufen. Digitale Systeme können ebenfalls die Datenintegrität sicherstellen und vor Gefah- ren wie etwa der Datenmanipulationen schützen, da die Patientendaten nur autorisiertem Personal zur Verfügung stehen. Im Rahmen von dauerhaften Protokollierungen des Patientenzustands können bereits heute schon Algo- rithmen Rückschlüsse auf den zukünftigen Patientenzustand schließen. Es können bereits 80%ig zutreffende Wahrscheinlichkeiten nachgewiesen werden, ob ein Pflegepatient unter häuslichem Missbrauch leidet. Ein weiterer Vorteil für den Einsatz von elektronischen Patientenakten ist aufgrund der ganz- heitlichen Protokollierung die bessere Prüfbarkeit von tatsächlich erbrachten Gesundheitsdienstleistungen.
